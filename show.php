@@ -54,10 +54,7 @@ $show = "SELECT * FROM addstocks";
       
       
   <div class="modal-body">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-    Keep me logged in
-  </label>
+  <h3> Are You Sure To Delete !!
       </div>
       <div class="modal-footer">
       <button type="button" class="btn btn-danger" data-bs-dismiss="modal">No</button>
