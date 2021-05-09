@@ -37,14 +37,13 @@ $show = "SELECT * FROM addstocks";
          <td align="center"><?php echo $row["types"]; ?></td>
          <td align="center"><?php echo $row["med_quantity"]; ?></td>
          <td align="center"><?php echo $row["med_price"]; ?></td>
-         <div class="d-flex bg-light"> 
+          
          <td align="center">
          <a href="update_form.php?id=<?php echo $row["med_id"]; ?>">
-         <button type="button" class="btn btn-outline-light" style="border-radius: 30% ; margin-right:2px">
-         <img src="pen.svg" ></button></img></a>
-         <button type="submit" class="btn btn-outline-light" style="border-radius: 30% ; margin-right:2px" data-bs-toggle="modal" data-bs-target="#edit" >
-         <img src="del.svg" ></img></button> 
-               <!-- Modal -->
+         <img src="pen.svg" ></button></a>
+        <!-- <button type="submit" class="btn btn-outline-light" style="border-radius: 30% ; margin-right:2px" data-bs-toggle="modal" data-bs-target="#edit" >-->
+         <img data-bs-toggle="modal" data-bs-target="#edit" src="del.svg" ><!--</button>
+                Modal -->
 <div class="modal fade" id="edit" tabindex="-1" aria-labelledby="editLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -68,7 +67,7 @@ $show = "SELECT * FROM addstocks";
     </div>
   </div>
 </div>
-         </div></td>
+      </td>
       </tr>
       </div> 
 
